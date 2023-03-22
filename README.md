@@ -45,7 +45,7 @@ Create a `.env` file and add :
 - `JWT_EXPIRATION_TIME` -> Your JWT expiration time
 
 ```env
-DB_CONNECT = mongodb+srv://<user>:<password><yourmongoDBStuff>/<collectionName>
+DB_CONNECT = mongodb+srv://<user>:<password><yourmongoDBStuff>/<DatabaseName>
 JWT_SECRET = <Your Secret>
 JWT_EXPIRATION_TIME = 3600
 ```
