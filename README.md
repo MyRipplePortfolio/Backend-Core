@@ -13,7 +13,7 @@ The `models` folder contains data models used in the API. The routes folder cont
 Finally, we have an `index.js` file in the root of the API folder that acts as the entry point for our API. Here, we can start the Node.js application and define the port number to listen to incoming requests.
 #
 ## Dependencies
-Sure, here are the dependencies required to build the APIs for a portfolio tracker with swaps on XRPL, including using MongoDB as the database:
+Here are the dependencies required to build the APIs.
 
 ## Backend Dependencies:
 
@@ -34,4 +34,8 @@ Sure, here are the dependencies required to build the APIs for a portfolio track
 
 To get started, you would need to install Node.js and MongoDB on your machine. Once installed, you can install the required Node.js packages by running `npm install` in the root folder of your project to install all the required packages.
 
+Also create a `.env` file and add `DB_CONNECT`, the mongoDB connection info.
+## _
+# APIs Documentation
+https://bit.ly/3LGQalh
 #
