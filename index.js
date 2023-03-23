@@ -8,6 +8,7 @@ const notificationRoutes = require('./src/routes/notificationRoutes');
 const portfolioRoutes = require('./src/routes/portfolioRoutes');
 const userManagementRoutes = require('./src/routes/userManagementRoutes');
 const errorMiddleware = require('./src/middlewares/errorMiddleware');
+const authenticationMiddleware = require('./src/middlewares/authMiddleware')
 const app = express();
 
 // Load environment variables from .env file
@@ -32,6 +33,8 @@ app.use('/users', userManagementRoutes);
 
 // Set up error middleware
 app.use(errorMiddleware);
+
+app.use(authenticationMiddleware)
 
 // Start the server
 const PORT = process.env.PORT || 3000;
