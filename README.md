@@ -34,7 +34,23 @@ Here are the dependencies required to build the APIs.
 
 To get started, you would need to install Node.js and MongoDB on your machine. Once installed, you can install the required Node.js packages by running `npm install` in the root folder of your project to install all the required packages.
 
-Also create a `.env` file and add `DB_CONNECT`, the mongoDB connection info.
+## Environment Variables (.env)
+
+Create a `.env` file and add :
+
+- `DB_CONNECT` -> The mongoDB connection info.
+
+- `JWT_SECRET` -> Your JSON web token "secret"
+
+- `JWT_EXPIRATION_TIME` -> Your JWT expiration time
+
+```env
+DB_CONNECT = mongodb+srv://<user>:<password><yourmongoDBStuff>/<DatabaseName>
+JWT_SECRET = <Your Secret>
+JWT_EXPIRATION_TIME = 3600
+```
+
+
 ## _
 # APIs Documentation
 https://bit.ly/3LGQalh
