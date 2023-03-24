@@ -77,7 +77,7 @@ exports.logoutUser = async (req, res) => {
 
     if (!user) {
       // If the user is not found, throw an error
-      throw new Error('Authentication failed. Please check your credentials.');
+      throw new Error('Authentication details invalid, Can not log out invalid user');
     }
 
     // Find the index of the specified token in the tokens array
