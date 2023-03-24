@@ -50,8 +50,6 @@ JWT_SECRET = <Your Secret>
 JWT_EXPIRATION_TIME = 3600
 ```
 
-
-## _
-# APIs Documentation
-https://bit.ly/3LGQalh
 #
+## APIs Documentation
+https://bit.ly/3LGQalh

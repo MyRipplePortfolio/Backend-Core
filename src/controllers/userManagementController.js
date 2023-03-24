@@ -9,9 +9,7 @@ const PUBLIC_SERVER = "wss://xrplcluster.com/";
 // Create a new XRPL client
 const XRPclient = new xrpl.Client(PUBLIC_SERVER);
 
-
 // Gets details of a user by ID, including their XRPL wallet balance in XRP and USD.
-
 exports.getUserDetails = async (req, res) => {
   try {
     const userId = req.params.id; // User ID from request params
